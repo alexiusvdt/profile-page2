@@ -1,6 +1,6 @@
 # Portfolio Landing Page
 
-#### By  Alex Johnson
+#### By Alex Johnson
 
 #### a short code review project for HTML/CSS
 
@@ -11,7 +11,7 @@
 * Bootstrap
 
 ## Description
-A short personal webpage with extra pages for practice.
+A short personal webpage with extra pages for additional practice.
 
 Check out the live [Portfolio Page](https://alexiusvdt.github.io/profile-page2/)
 
