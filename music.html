@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Github Links</title>
+  <title>Music</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
@@ -22,32 +22,29 @@
           <a class="nav-item nav-link" href="about-me.html">About Me</a>
           <a class="nav-item nav-link" href="cat-page.html">Cat Page</a>
           <a class="nav-item nav-link" href="music.html">Music</a>
+          <a class="nav-item nav-link" href="button-bars.html">Bars & Buttons</a>
         </div>
       </div>
     </nav>
   </div>
+  <div>
   <h2 class="standout">I love playing music, singing, and watching live performances!</h1>
-<!--carousel images load, buttons not responsive. js integration may be required? look into after lunch-->
-  <div id="carouselExampleControls" class="carousel slide" data-interval= 10>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/nine-inch-nails.jpg" alt="Nine Inch Nails performing live.">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/heilung.jpg" alt="Heilung performing live.">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/redfang.jpg" alt="Red Fang in the woods.">
-    </div>
+  <p class="standout">Did you know you can link audio files like pictures and images in HTML? Cool! Here's a royalty-free clip of some suspenseful music (loud! check your volume first):</p>
+  <audio controls autoplay="off">
+    <source src="audio/suspense.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+  </audio> 
+  <p class="standout">...and the classic Wilhelm Scream!</p>
+  <audio controls autoplay="off">
+      <source src="audio/Wilhelm.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+  </audio>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+  <div>
+    <p class="standout">So that's pretty cool, huh? You can also embed video/audio from Youtube if you create an iframe element:</p>
+    <iframe width="auto" height="auto"
+      src="https://www.youtube.com/embed/AyOqGRjVtls">
+    </iframe> 
+  </div>
 </body>
 </html>

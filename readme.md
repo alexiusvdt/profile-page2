@@ -11,9 +11,9 @@
 * Bootstrap
 
 ## Description
-A short personal webpage 
+A short personal webpage with extra pages for practice.
 
-<!-- Check out the live [Vacation Site](https://kirstenopstad.github.io/vacation-site/)! -->
+Check out the live [Portfolio Page](https://alexiusvdt.github.io/profile-page2/)
 
 ## Setup/Installation Requirements
 
@@ -23,8 +23,7 @@ A short personal webpage
 
 ## Known Bugs
 
-* initial repository profile-page somehow got ahead of the remote branch and wouldn't allow push command without a pull first. remote branch was empty so a new repo was created. Not necessarily impactful to users - remember to push to aj2 
-* expand button not working on collapsed navbars
+* expand button not working on collapsed navbars when collapsing down due to screen size adjustment
 * If you find additional bugs not listed here, please email me at alex.johnson293@gmail.com with the subject **[_Repo Name_] Bug** and include:
   * BUG: _A brief description of the bug_
   * FIX: _Suggestion for solution (if you have one!)_
