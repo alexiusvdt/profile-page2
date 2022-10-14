@@ -43,3 +43,8 @@ body {
   padding-bottom: 50px;
   box-sizing: border-box;
 }
+
+.carousel-img {
+  width: 300px;
+  height: 400 px;
+}
