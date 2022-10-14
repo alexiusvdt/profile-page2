@@ -17,4 +17,9 @@ p.standout {
   padding: 5px;
   background-color: orangered;
   box-sizing: border-box;
+  text-align: center;  
 }
+
+/* .cat-img {
+  float: left;
+} */
