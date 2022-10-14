@@ -50,11 +50,9 @@ body {
 }
 
 .progress-bar{
-  width: 15px;
   padding: 20px;
   border: 1px solid rgb(255, 255, 255);
-  float: center;
   text-align: center;
-  color: whitesmoke
+  color: whitesmoke;
 }
 
