@@ -20,6 +20,21 @@ p.standout {
   text-align: center;  
 }
 
-/* .cat-img {
+.cat-img {
   float: left;
-} */
+
+}
+
+.soot-img {
+  float: right;
+}
+
+.box-nobg {
+  margin: 12px;
+  border: 3px solid black;
+  padding-top: 200px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  text-align: center; 
+}
