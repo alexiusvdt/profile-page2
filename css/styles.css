@@ -3,7 +3,7 @@ body {
   font-family: monospace;
 }
 
-p.standout {
+.standout {
   color: whitesmoke;
 }
 
@@ -24,6 +24,12 @@ p.standout {
   float: left;
   height: 300px;
   width: 300px;
+}
+
+.cat-img2 {
+  float: left;
+  height: 300px;
+  width: 400px;
 
 }
 
@@ -36,5 +42,4 @@ p.standout {
   padding-top: 200px;
   padding-bottom: 50px;
   box-sizing: border-box;
-  text-align: center; 
 }
