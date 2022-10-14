@@ -17,11 +17,13 @@ p.standout {
   padding: 5px;
   background-color: orangered;
   box-sizing: border-box;
-  text-align: center;  
+  text-align: left;  
 }
 
 .cat-img {
   float: left;
+  height: 300px;
+  width: 300px;
 
 }
 
@@ -31,9 +33,7 @@ p.standout {
 
 .box-nobg {
   margin: 12px;
-  border: 3px solid black;
   padding-top: 200px;
-  padding-right: 30px;
   padding-bottom: 50px;
   box-sizing: border-box;
   text-align: center; 

@@ -23,6 +23,7 @@ A short personal webpage
 
 ## Known Bugs
 
+* initial repository profile-page somehow got ahead of the remote branch and wouldn't allow push command without a pull first. remote branch was empty so a new repo was created. Not necessarily impactful to users - remember to push to aj2 
 * expand button not working on collapsed navbars
 * If you find additional bugs not listed here, please email me at alex.johnson293@gmail.com with the subject **[_Repo Name_] Bug** and include:
   * BUG: _A brief description of the bug_
