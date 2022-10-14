@@ -29,6 +29,9 @@ Check out the live [Portfolio Page](https://alexiusvdt.github.io/profile-page2/)
   * FIX: _Suggestion for solution (if you have one!)_
   * If you'd like to be credited, please also include your **_github user profile link_**
 
+## Additional Contributors
+* Susuwatari - expert nap-snoozer & 'rubber duck' debugger
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
