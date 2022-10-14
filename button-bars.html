@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Button & Bars</title>
+  <title>Testing Page</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
@@ -21,14 +21,13 @@
           <a class="nav-item nav-link" href="github-links.html">Github Repos</a>
           <a class="nav-item nav-link" href="about-me.html">About Me</a>
           <a class="nav-item nav-link" href="cat-page.html">Cat Page</a>
-          <a class="nav-item nav-link" href="music.html">Music</a>
-          <a class="nav-item nav-link" href="button-bars.html">Bars & Buttons</a>
+          <a class="nav-item nav-link" href="button-bars.html">Testing Page</a>
         </div>
       </div>
     </nav>
   </div>
   <div>
-    <p class="standout">Here is where I'm going to practice using Bootstrap to make progress bars, label buttons, and other things to fill time!</p>
+    <p class="standout">I finished my project requirements quite early, so I'm building this page to house some fun code so I can keep making commits this afternoon!</p>
     <button type="button" class="btn btn-primary">Primary</button>
     <button type="button" class="btn btn-secondary">Secondary</button>
     <button type="button" class="btn btn-success">Success</button>
@@ -55,7 +54,31 @@
     <div class="progress">
       <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
-    
+    <h2 class="standout">I love playing music, singing, and watching live performances!</h1>
+      <p class="standout">Did you know you can link audio files like pictures and images in HTML? Cool! Here's a royalty-free clip of some suspenseful music (loud! check your volume first):</p>
+      <audio controls autoplay="off">
+        <source src="audio/suspense.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+      </audio> 
+      <p class="standout">...and the classic Wilhelm Scream!</p>
+      <audio controls autoplay="off">
+          <source src="audio/Wilhelm.ogg" type="audio/ogg">
+      Your browser does not support the audio element.
+      </audio>
+      </div>
+      <div>
+        <p class="standout">So that's pretty cool, huh? You can also embed video/audio from Youtube if you create an iframe element. Youtube has a lot of security settings around this that I didn't understand fully.  was successful in creating the iframe but not the appropriate security settings to allow it to play in the embedded window. Shame. Something to work on for later.</p>
+      </div>
+      <div>
+        <p class="standout">Whatever you do, don't click these buttons:</p>
+        <button type="button" class="btn btn-danger" onclick="alert('Why did you click the button?!')">Please dont</button>
+        <button type="button" class="btn btn-warning" onclick="alert('Come on, I asked nicely, didnt I?')">Also dont</button>
+        <button type="button" class="btn btn-info" onclick="alert('What are you, some kind of comedian?')">Seriously, dont</button>
+        <button type="button" class="btn btn-dark" onclick="alert('You must be fun at parties...')">Really don't hit this one</button>
+        <button type="button" class="btn btn-danger" onclick="alert('Are you still clicking these?')">It doesn't even work</button>
+        <button type="button" class="btn btn-success" onclick="alert('Do you need help?')">One of these has horrible consequences</button>
+        <button type="button" class="btn btn-danger" onclick="alert('*sigh* what part of DONT CLICK is confusing?!')">You can click this one once, as a treat </button>
+      </div>
 
   </div>
 </body>

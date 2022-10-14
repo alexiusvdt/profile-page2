@@ -41,10 +41,20 @@
   </audio>
   </div>
   <div>
-    <p class="standout">So that's pretty cool, huh? You can also embed video/audio from Youtube if you create an iframe element:</p>
-    <iframe width="auto" height="auto"
-      src="https://www.youtube.com/embed/AyOqGRjVtls">
-    </iframe> 
+    <p class="standout">So that's pretty cool, huh? You can also embed video/audio from Youtube if you create an iframe element. Youtube has a lot of security settings around this that I didn't understand fully, but I was successful in creating the iframe, but not the appropriate security settings to allow it to play in the embedded window. Shame. Something to work on for later.</p>
+  </div>
+  <div>
+    <p class="standout">Whatever you do, don't click these buttons:</p>
+    <button type="button" class="btn btn-danger" onclick="alert('Why did you click the button?!')">Please dont</button>
+    <button type="button" class="btn btn-warning" onclick="alert('Come on, I asked nicely, didnt I?')">Also dont</button>
+    <button type="button" class="btn btn-info" onclick="alert('What are you, some kind of comedian?')">Seriously, dont</button>
+    <button type="button" class="btn btn-dark" onclick="alert('You must be fun at parties...')">Really don't hit this one</button>
+    <button type="button" class="btn btn-danger" onclick="alert('Are you still clicking these?')">It doesn't even work</button>
+    <button type="button" class="btn btn-success" onclick="alert('Do you need help?')">One of these has horrible consequences</button>
+    <button type="button" class="btn btn-danger" onclick="alert('*sigh* what part of DONT CLICK is confusing?!')">You can click this one once, as a treat </button>
+  </div>
+  <div>
+    
   </div>
 </body>
 </html>
